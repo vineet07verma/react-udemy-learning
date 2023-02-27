@@ -1,9 +1,10 @@
 import './App.scss';
+import ExpenseItem from './components/ExpenseItem';
 
 function App() {
   return (
-    <div className="App">
-        <h1>Welcome to React DXP</h1>
+    <div className="container p-3">
+        <ExpenseItem></ExpenseItem>
     </div>
   );
 }
